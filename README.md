@@ -63,6 +63,8 @@ let g:airline_themes_ez_patcher#default_palette = {
 
 Controls the order in which to append your sections to the airline bar.
 
+**NOTE**: The names of the sections in the layout are *not* prepended with 'airline_'. If the section name in `g:airline_themes_ez_patcher#palette` is `"airline_a"` or `"airline_my_custom_section"`, the correct section name in `g:airline_themes_ez_patcher#layout` would be `"a"` or `"my_custom_section"`, respectively.
+
 ex:
 ```vim
 let g:airline_themes_ez_patcher#layout = ['mysection_a', 'mysection_b', 'mysection_c']

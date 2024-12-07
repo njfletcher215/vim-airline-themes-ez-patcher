@@ -38,7 +38,5 @@ function! airline_themes_ez_patcher#globals#init()
 
     " the layout of the airline bar
     let g:airline#extensions#default#layout = get(g:, 'airline#extensions#default#layout', s:defaults['airline#extensions#default#layout'])
-
-    let g:test = 1
 endfunction
 

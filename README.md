@@ -4,9 +4,20 @@ A supplementary plugin for [vim-airline-themes](https://www.github.com/vim-airli
 
 ## Installation
 
-Use your favorite plugin manager to install. I recommend [vim-plug](https://github.com/junegunn/vim-plug):
+Use your favorite plugin manager to install. I recommend [vim-plug](https://github.com/junegunn/vim-plug).
+
+This plugin depends on [vim-airline](https://github.com/vim-airline/vim-airline) and [vim-airline-themes](https://www.github.com/vim-airline/vim-airline-themes), of course, so be sure to install those first.
 ```vim
+call plug#begin()
+
+" dependencies
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" plugin
 Plug 'njfletcher215/vim-airline-themes-ez-patcher'
+
+call plug#end()
 ```
 
 ## Basic Usage
